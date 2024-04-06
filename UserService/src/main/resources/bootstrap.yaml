@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: UserService
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/utenteMicro?createDatabaseIfNotExist=true
+    username: root
+    password: 1234
+ 
+ 
+
+
+
+
+
+
