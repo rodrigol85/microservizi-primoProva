@@ -1,6 +1,6 @@
 spring:
   application:
-    name: automobileService
+    name: automobile-service
   cloud:
     config:
       enabled: true

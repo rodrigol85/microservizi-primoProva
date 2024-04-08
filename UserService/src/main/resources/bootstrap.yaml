@@ -1,6 +1,6 @@
 spring:
   application:
-    name: UserService
+    name: utente-service
   cloud:
     config:
       enabled: true
